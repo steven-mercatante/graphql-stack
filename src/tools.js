@@ -4,6 +4,7 @@ const Python = "python";
 
 export default {
   client: {
+    name: "Client",
     description: "",
     tools: [
       {
@@ -30,6 +31,7 @@ export default {
     ]
   },
   gateway: {
+    name: "Gateway",
     description: "",
     tools: [
       {
@@ -42,6 +44,7 @@ export default {
     ]
   },
   graphqlServer: {
+    name: "GraphQL Server",
     description: "",
     tools: [
       {
@@ -84,6 +87,7 @@ export default {
     ]
   },
   server: {
+    name: "Server",
     description: "",
     tools: [
       {
@@ -96,6 +100,7 @@ export default {
     ]
   },
   dbProxy: {
+    name: "Database Proxy",
     description: "",
     tools: [
       {

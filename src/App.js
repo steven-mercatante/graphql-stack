@@ -1,18 +1,49 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+
+import toolsData from "./tools";
+
+class Section extends Component {
+  render() {
+    const { type, data } = this.props;
+    const { name, description, tools } = data;
+
+    return (
+      <div className="section">
+        <p className="name">{name}</p>
+        <p className="description">{description}</p>
+        {tools.map((data, i) => <Tool data={data} key={i} />)}
+      </div>
+    );
+  }
+}
+
+class Tool extends Component {
+  render() {
+    const { name, description, url, github } = this.props.data;
+    return (
+      <div className="tool">
+        <p className="name">{name}</p>
+        <p className="description">{description}</p>
+        <p className="url">{url}</p>
+        <p className="github">{github}</p>
+      </div>
+    );
+  }
+}
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+        <p className="description">
+          GraphQL is exciting, but its ecosystem can be confusing because of all
+          the tools available. This chart is meant to help explain the various
+          tools and how they fit in to the overall ecosystem.
         </p>
+        {Object.entries(toolsData).map(([type, data], i) => (
+          <Section type={type} data={data} key={i} />
+        ))}
       </div>
     );
   }
