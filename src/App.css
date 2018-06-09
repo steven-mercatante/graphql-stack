@@ -12,6 +12,27 @@
   margin-top: 0;
 }
 
+.section.client {
+  background-color: #456990;
+  color: #fff;
+}
+
+.section.gateway {
+  background-color: #bbd0b9;
+}
+
+.section.graphqlServer {
+  background-color: #ebb981;
+}
+
+.section.server {
+  background-color: #de505c;
+}
+
+.section.dbProxy {
+  background-color: #028090;
+}
+
 .toolsList {
   display: flex;
   justify-content: space-evenly;
@@ -19,7 +40,7 @@
 }
 
 .tool {
-  border: 1px solid green;
+  border: 1px solid black;
   max-width: 300px;
   padding: 0.5rem;
   margin: 1rem;
