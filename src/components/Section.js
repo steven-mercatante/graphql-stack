@@ -10,7 +10,7 @@ class Section extends Component {
       <div className={`section ${type}`}>
         <p className="name">{name}</p>
         <p className="description">{description}</p>
-        <ToolsList tools={tools} />
+        <ToolsList type={type} tools={tools} />
       </div>
     );
   }
