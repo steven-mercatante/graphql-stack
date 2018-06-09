@@ -44,6 +44,7 @@
 
 .tool {
   border: 1px solid black;
+  width: 300px;
   max-width: 300px;
   padding: 0.5rem;
   margin: 1rem;
