@@ -9,6 +9,8 @@ const extractLanguages = tools =>
 
 const sortLanguages = languages => Array.from(languages).sort();
 
+const sortTools = tools => tools.sort((a, b) => a.name > b.name);
+
 class LanguageSelector extends Component {
   handleChange = ({ target }) => {
     this.props.onSelect(target.value);
@@ -45,6 +47,8 @@ class ToolsList extends Component {
         />
       );
     }
+
+    tools = sortTools(tools);
 
     return (
       <div className="toolsList">
