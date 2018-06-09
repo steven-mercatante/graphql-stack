@@ -1,42 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
 
+import Section from "./components/Section";
 import toolsData from "./toolsData";
-
-class Section extends Component {
-  render() {
-    const { type, data } = this.props;
-    const { name, description, tools } = data;
-
-    return (
-      <div className={`section ${type}`}>
-        <p className="name">{name}</p>
-        <p className="description">{description}</p>
-        <div className="toolsList">
-          {tools.map((data, i) => <Tool data={data} key={i} />)}
-        </div>
-      </div>
-    );
-  }
-}
-
-class Tool extends Component {
-  render() {
-    const { name, description, url, github } = this.props.data;
-    return (
-      <div className="tool">
-        <p className="name">{name}</p>
-        <p className="description">{description}</p>
-        <p className="url">
-          <a href={url}>{url}</a>
-        </p>
-        <p className="github">
-          <a href={github}>{github}</a>
-        </p>
-      </div>
-    );
-  }
-}
 
 class App extends Component {
   render() {
