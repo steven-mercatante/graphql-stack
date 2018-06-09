@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Tool from "./Tool";
+import ToolsList from "./ToolsList";
 
 class Section extends Component {
   render() {
@@ -10,9 +10,7 @@ class Section extends Component {
       <div className={`section ${type}`}>
         <p className="name">{name}</p>
         <p className="description">{description}</p>
-        <div className="toolsList">
-          {tools.map((data, i) => <Tool data={data} key={i} />)}
-        </div>
+        <ToolsList tools={tools} />
       </div>
     );
   }
