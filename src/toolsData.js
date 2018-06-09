@@ -89,20 +89,20 @@ export default {
       }
     ]
   },
-  server: {
-    name: "Server",
-    description:
-      "These frameworks are language-specific and are usually the ones responsible for fetching data.",
-    tools: [
-      {
-        name: "Express",
-        description: "",
-        url: "https://expressjs.com/",
-        github: "https://github.com/expressjs/expressjs.com",
-        language: JavaScript
-      }
-    ]
-  },
+  // server: {
+  //   name: "Server",
+  //   description:
+  //     "These frameworks are language-specific and are usually the ones responsible for fetching data.",
+  //   tools: [
+  //     {
+  //       name: "Express",
+  //       description: "",
+  //       url: "https://expressjs.com/",
+  //       github: "https://github.com/expressjs/expressjs.com",
+  //       language: JavaScript
+  //     }
+  //   ]
+  // },
   dbProxy: {
     name: "Database Proxy",
     description:
