@@ -5,7 +5,8 @@ const Python = "python";
 export default {
   client: {
     name: "Client",
-    description: "",
+    description:
+      "Client libraries construct queries and send them to the server. They're available for almost every popular frontend framework (React, Vue, Angular, Ember, etc.)",
     tools: [
       {
         name: "Apollo Client",
@@ -32,7 +33,8 @@ export default {
   },
   gateway: {
     name: "Gateway",
-    description: "",
+    description:
+      "Gateways sit between the client and the server and offer functionality such as caching and monitoring.",
     tools: [
       {
         name: "Apollo Engine",
@@ -45,7 +47,8 @@ export default {
   },
   graphqlServer: {
     name: "GraphQL Server",
-    description: "",
+    description:
+      "These frameworks usually sit above a lower-level language specific framework (but not always). They're typically responsible for receiving the query from the client, processing it, and sending back a response. They often times fetch the data from a database, but are not limited to one. In fact, they can query multiple databases, files and other webservices/APIs.",
     tools: [
       {
         name: "Apollo Server",
@@ -88,7 +91,8 @@ export default {
   },
   server: {
     name: "Server",
-    description: "",
+    description:
+      "These frameworks are language-specific and are usually the ones responsible for fetching data.",
     tools: [
       {
         name: "Express",
@@ -101,7 +105,8 @@ export default {
   },
   dbProxy: {
     name: "Database Proxy",
-    description: "",
+    description:
+      "A database proxy sits right above the database [TODO: need better description]",
     tools: [
       {
         name: "Prisma",

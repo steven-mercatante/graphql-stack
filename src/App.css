@@ -8,13 +8,19 @@
   margin-bottom: 1rem;
 }
 
+.section p {
+  margin-top: 0;
+}
+
 .toolsList {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .tool {
   border: 1px solid green;
-  padding: 0.5rem;
   max-width: 300px;
+  padding: 0.5rem;
+  margin: 1rem;
 }
