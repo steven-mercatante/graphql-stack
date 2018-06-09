@@ -9,6 +9,21 @@ const extractLanguages = tools =>
 
 const sortLanguages = languages => Array.from(languages).sort();
 
+class LanguageSelector extends Component {
+  handleChange = ({ target }) => {
+    this.props.onSelect(target.value);
+  };
+
+  render() {
+    const { languages, selected } = this.props;
+    return (
+      <select name="language" value={selected} onChange={this.handleChange}>
+        {languages.map((language, i) => <option key={i}>{language}</option>)}
+      </select>
+    );
+  }
+}
+
 class ToolsList extends Component {
   state = {
     language: "javascript"
@@ -17,14 +32,23 @@ class ToolsList extends Component {
   render() {
     const { type } = this.props;
     let { tools } = this.props;
+    let languageSelector = null;
 
     if (type === "graphqlServer") {
       const languages = sortLanguages(extractLanguages(tools));
       tools = tools.filter(({ language }) => language === this.state.language);
+      languageSelector = (
+        <LanguageSelector
+          languages={languages}
+          selected={this.state.language}
+          onSelect={language => this.setState({ language })}
+        />
+      );
     }
 
     return (
       <div className="toolsList">
+        {languageSelector}
         {tools.map((data, i) => <Tool data={data} key={i} />)}
       </div>
     );
