@@ -1,5 +1,6 @@
 .App {
   padding: 0.5rem;
+  max-width: 90vw;
 }
 
 .section {
@@ -13,24 +14,26 @@
 }
 
 .section.client {
-  background-color: #456990;
-  color: #fff;
+  background-color: #feffff;
 }
 
 .section.gateway {
-  background-color: #bbd0b9;
+  background-color: #def2f1;
 }
 
 .section.graphqlServer {
-  background-color: #ebb981;
+  background-color: #3aafa9;
+  color: #feffff;
 }
 
 .section.server {
-  background-color: #de505c;
+  background-color: #2b7a78;
+  color: #feffff;
 }
 
 .section.dbProxy {
-  background-color: #028090;
+  background-color: #17252a;
+  color: #feffff;
 }
 
 .toolsList {
