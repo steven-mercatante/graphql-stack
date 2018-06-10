@@ -66,6 +66,7 @@ span.pink {
   margin: 3rem 0;
   border-radius: 4px;
   box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+  text-shadow: 1px 1px hsla(0, 0%, 0%, 0.3);
 }
 
 .section .name {
@@ -78,24 +79,19 @@ span.pink {
 }
 
 .section.client {
-  /* background-color: #84cdca; */
   background-color: #f67280;
 }
 
 .section.gateway {
-  /* background-color: #40b3a3; */
   background-color: #c06c84;
 }
 
 .section.graphqlServer {
-  /* background-color: #e8a87c; */
   background-color: #6c5b7b;
 }
 
 .section.dbProxy {
-  /* background-color: #e27d5f; */
   background-color: #355c7d;
-  /* color: #feffff; */
 }
 
 .tools {
@@ -117,6 +113,7 @@ span.pink {
   border-radius: 4px;
   display: flex;
   flex-direction: column;
+  text-shadow: none;
   box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
 }
 

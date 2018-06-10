@@ -68,7 +68,7 @@ export default {
   graphqlServer: {
     name: "GraphQL Servers",
     description:
-      "These frameworks usually sit above a lower-level language specific framework (e.g Express, Django, Laravel, etc.). They're responsible for receiving the query from the client, processing it, and sending back a response. They often times fetch the data from a database, but are not limited to one. In fact, they can query multiple databases, files and other webservices/APIs.",
+      "These frameworks usually sit above a lower-level language specific framework (Express, Django, Laravel, etc.). They're responsible for receiving the query from the client, processing it, and sending back a response. They often times fetch the data from a database, but are not limited to one. In fact, they can query multiple databases, files and other webservices/APIs.",
     tools: [
       {
         name: "Apollo Server",
