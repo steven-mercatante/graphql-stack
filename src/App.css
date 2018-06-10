@@ -62,7 +62,7 @@ span.pink {
 
 .section {
   color: #feffff;
-  padding: 0.5rem;
+  padding: 1rem;
   margin: 3rem 0;
   border-radius: 4px;
   box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
@@ -70,7 +70,7 @@ span.pink {
 }
 
 .section .name {
-  margin: 1rem;
+  margin-bottom: 1rem;
   font-size: 1.5rem;
 }
 
@@ -124,7 +124,7 @@ span.pink {
 .tool .main {
   background-color: #feffff;
   height: 100%;
-  padding: 0.5rem;
+  padding: 1rem;
   padding-bottom: 1rem;
 }
 
