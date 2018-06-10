@@ -94,6 +94,10 @@ span.pink {
   background-color: #355c7d;
 }
 
+.section.data {
+  background-color: #0d3559;
+}
+
 .tools {
   padding-top: 1rem;
   display: flex;

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 
 import Section from "./components/Section";
+import StaticSection from "./components/StaticSection";
 import toolsData from "./toolsData";
 
 import graphqlLogo from "./graphql-logo.svg";
@@ -36,6 +37,16 @@ class App extends Component {
           {Object.entries(toolsData).map(([type, data], i) => (
             <Section type={type} data={data} key={i} />
           ))}
+          <StaticSection type="data" name="Data">
+            {() => (
+              <div>
+                <p>
+                  The data layer may contain any of: one or more databases, flat
+                  files and even other APIs.
+                </p>
+              </div>
+            )}
+          </StaticSection>
         </div>
         <footer>
           <p>
