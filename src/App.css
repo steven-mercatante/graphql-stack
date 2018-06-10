@@ -99,9 +99,11 @@ span.pink {
   background-color: #feffff;
   height: 100%;
   padding: 0.5rem;
+  padding-bottom: 1rem;
 }
 
 .tool .name {
+  margin-top: 0;
   font-weight: bold;
   font-size: 1.1rem;
 }
