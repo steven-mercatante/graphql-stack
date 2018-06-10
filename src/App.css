@@ -90,6 +90,10 @@ span.pink {
   background-color: #6c5b7b;
 }
 
+.section.server {
+  background-color: #515c7c;
+}
+
 .section.dbProxy {
   background-color: #355c7d;
 }

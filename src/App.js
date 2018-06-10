@@ -34,9 +34,23 @@ class App extends Component {
         </p>
         <div className="sectionsList">
           <div className="line" />
-          {Object.entries(toolsData).map(([type, data], i) => (
-            <Section type={type} data={data} key={i} />
-          ))}
+          <Section type="client" data={toolsData["client"]} />
+          <Section type="gateway" data={toolsData["gateway"]} />
+          <Section type="graphqlServer" data={toolsData["graphqlServer"]} />
+          <StaticSection type="server" name="Servers">
+            {() => (
+              <div>
+                <p>
+                  This is where the business logic (e.g. user authentication,
+                  data processing) for your app traditionally lives. Common
+                  examples are Express apps, Django apps, Laravel apps, etc.
+                  They may also provide RESTful API endpoints (there's nothing
+                  saying you can't use GraphQL and REST in the same system.)
+                </p>
+              </div>
+            )}
+          </StaticSection>
+          <Section type="dbProxy" data={toolsData["dbProxy"]} />
           <StaticSection type="data" name="Data">
             {() => (
               <div>
