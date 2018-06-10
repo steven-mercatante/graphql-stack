@@ -1,6 +1,6 @@
 # GraphQL Stack Explanation
 
-An attempt to explain how the various tools in the GraphQL ecosystem fit together.
+An explaination of how the various tools in the GraphQL ecosystem fit together.
 
 ### Contributions
 
