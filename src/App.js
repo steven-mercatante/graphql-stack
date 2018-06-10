@@ -11,8 +11,9 @@ class App extends Component {
     return (
       <div className="App">
         <h1>
-          The <img src={graphqlLogo} className="graphqlLogo" />
-          <span class="pink">GraphQL</span> Stack
+          The{" "}
+          <img src={graphqlLogo} alt="GraphQL logo" className="graphqlLogo" />
+          <span className="pink">GraphQL</span> Stack
         </h1>
         <p className="intro">
           GraphQL is exciting, but its ecosystem can be confusing because of all
