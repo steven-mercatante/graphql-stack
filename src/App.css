@@ -11,6 +11,31 @@
   margin: 0 auto;
 }
 
+.explanation {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+.explanation:before {
+  content: open-quote;
+  display: inline;
+  line-height: 0;
+  left: -10px;
+  position: relative;
+  top: 20px;
+  color: #999;
+  font-size: 3em;
+}
+.explanation:after {
+  content: close-quote;
+  display: inline;
+  line-height: 0;
+  left: 10px;
+  position: relative;
+  top: 25px;
+  color: #999;
+  font-size: 3em;
+}
+
 .graphqlLogo {
   width: 30px;
   position: relative;
