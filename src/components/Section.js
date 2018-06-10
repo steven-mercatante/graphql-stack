@@ -8,7 +8,7 @@ class Section extends Component {
 
     return (
       <div className={`section ${type}`}>
-        <p className="name">{name}</p>
+        <h4 className="name">{name}</h4>
         <p className="description">{description}</p>
         <ToolsList type={type} tools={tools} />
       </div>

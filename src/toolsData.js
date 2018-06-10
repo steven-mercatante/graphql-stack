@@ -1,6 +1,6 @@
-const Elixir = "elixir";
-const JavaScript = "javascript";
-const Python = "python";
+const Elixir = "Elixir";
+const JavaScript = "JavaScript";
+const Python = "Python";
 
 export default {
   client: {

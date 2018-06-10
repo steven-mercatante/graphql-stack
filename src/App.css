@@ -2,10 +2,20 @@
   padding: 0.5rem;
   max-width: 1200px;
   margin: auto;
+  text-align: center;
+  color: #333;
 }
 
-.intro {
-  margin-bottom: 3rem;
+.App p {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.graphqlLogo {
+  width: 30px;
+  position: relative;
+  top: 3px;
+  margin-right: 0.3rem;
 }
 
 span.pink {
@@ -28,12 +38,13 @@ span.pink {
 .section {
   color: #feffff;
   padding: 0.5rem;
-  margin-bottom: 3rem;
+  margin: 3rem 0;
   border-radius: 4px;
   box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
 }
 
 .section .name {
+  margin: 1rem;
   font-size: 1.5rem;
 }
 

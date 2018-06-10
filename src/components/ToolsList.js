@@ -28,7 +28,7 @@ class LanguageSelector extends Component {
 
 class ToolsList extends Component {
   state = {
-    language: "javascript"
+    language: "JavaScript"
   };
 
   render() {
@@ -41,7 +41,7 @@ class ToolsList extends Component {
       tools = tools.filter(({ language }) => language === this.state.language);
       languageSelector = (
         <div className="language">
-          Show servers for:&nbsp;
+          <br />Show servers for:&nbsp;
           <LanguageSelector
             languages={languages}
             selected={this.state.language}
