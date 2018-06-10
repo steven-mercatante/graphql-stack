@@ -53,7 +53,9 @@ class ToolsList extends Component {
     return (
       <div className="toolsList">
         {languageSelector}
-        {tools.map((data, i) => <Tool data={data} key={i} />)}
+        <div className="tools">
+          {tools.map((data, i) => <Tool data={data} key={i} />)}
+        </div>
       </div>
     );
   }

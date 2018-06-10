@@ -1,12 +1,14 @@
 .App {
   padding: 0.5rem;
-  max-width: 90vw;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .section {
-  border: 1px solid black;
   padding: 0.5rem;
   margin-bottom: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
 }
 
 .section p {
@@ -14,42 +16,59 @@
 }
 
 .section.client {
-  background-color: #feffff;
+  background-color: #84cdca;
 }
 
 .section.gateway {
-  background-color: #def2f1;
+  background-color: #40b3a3;
 }
 
 .section.graphqlServer {
-  background-color: #3aafa9;
+  background-color: #e8a87c;
   color: #feffff;
 }
 
 .section.server {
-  background-color: #2b7a78;
+  background-color: #c38d9d;
   color: #feffff;
 }
 
 .section.dbProxy {
-  background-color: #17252a;
+  background-color: #e27d5f;
   color: #feffff;
 }
 
-.toolsList {
+.tools {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
+.round {
+  border-radius: 0.5rem;
+}
+
 .tool {
-  border: 1px solid black;
   width: 300px;
   max-width: 300px;
+  margin: 0.5rem;
+  /* box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2); */
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.tool .main {
+  background-color: #feffff;
+  color: #333;
+  /* height: 100%; */
   padding: 0.5rem;
-  margin: 1rem;
 }
 
 .tool .name {
   font-weight: bold;
+}
+
+.tool .info {
+  padding: 0.5rem;
+  background-color: #f3f4f5;
 }
