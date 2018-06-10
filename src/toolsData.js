@@ -7,7 +7,7 @@ export default {
   client: {
     name: "Clients",
     description:
-      "Client libraries construct queries and send them to the server. Some offer bindings for specific frontend libraries/frameworks (React, Vue, Angular, etc.), and others are able to be used with or without a framework.",
+      "Client libraries construct queries and send them to the server. Some offer bindings for specific frontend libraries/frameworks (React, Vue, Angular, etc.), and others can be used independently a framework.",
     tools: [
       {
         name: "Apollo Client",
@@ -54,11 +54,11 @@ export default {
   gateway: {
     name: "Gateways",
     description:
-      "Gateways sit between the client and the server and offer functionality such as caching and monitoring.",
+      "Gateways sit between the client and the server and offer functionality such as caching, monitoring, performance tracking and more.",
     tools: [
       {
         name: "Apollo Engine",
-        description: "Apollo Engine middleware for Node",
+        description: "Apollo Engine middleware for Node.",
         url: "https://www.apollographql.com/engine",
         github: "https://github.com/apollographql/apollo-engine-js",
         language: JavaScript
@@ -68,7 +68,7 @@ export default {
   graphqlServer: {
     name: "GraphQL Servers",
     description:
-      "These frameworks usually sit above a lower-level language specific framework (Express, Django, Laravel, etc.). They're responsible for receiving the query from the client, processing it, and sending back a response. They often times fetch the data from a database, but are not limited to one. In fact, they can query multiple databases, files and other webservices/APIs.",
+      "These tools usually sit above a lower-level language specific framework (Express, Django, Laravel, etc.). They're responsible for receiving the query from the client, processing it, and sending back a response. They often times fetch the data from a database, but are not limited to one. In fact, they can query multiple databases, files and other webservices/APIs.",
     tools: [
       {
         name: "Apollo Server",
