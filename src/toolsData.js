@@ -1,4 +1,5 @@
 const Elixir = "Elixir";
+const Elm = "Elm";
 const JavaScript = "JavaScript";
 const Python = "Python";
 
@@ -25,7 +26,7 @@ export default {
         language: JavaScript
       },
       {
-        name: "micro graphql react",
+        name: "Micro GraphQL React",
         description:
           "Light and simple utility for adding GraphQL to React components. Executes queries via HTTP GET, allowing you to cache results via Service Worker, rather than potentially large client-side solutions.",
         url: "",
@@ -39,6 +40,14 @@ export default {
         url: "",
         github: "https://github.com/grafoojs/grafoo",
         language: JavaScript
+      },
+      {
+        name: "Elm - GraphQL",
+        description: "A GraphQL library for Elm, written entirely in Elm.",
+        url:
+          "http://package.elm-lang.org/packages/jamesmacaulay/elm-graphql/latest",
+        github: "https://github.com/jamesmacaulay/elm-graphql",
+        language: Elm
       }
     ]
   },
