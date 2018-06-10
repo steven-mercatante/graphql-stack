@@ -11,12 +11,20 @@ class Tool extends Component {
         </div>
         <div className="info">
           <ul className="links">
-            <li>
-              <a href={url}>url</a>
-            </li>
-            <li>
-              <a href={github}>github</a>
-            </li>
+            {url && (
+              <li>
+                <a href={url}>
+                  <i className="fas fa-link" aria-hidden="true" />
+                </a>
+              </li>
+            )}
+            {github && (
+              <li>
+                <a href={github}>
+                  <i className="fab fa-github" aria-hidden="true" />
+                </a>
+              </li>
+            )}
           </ul>
         </div>
       </div>

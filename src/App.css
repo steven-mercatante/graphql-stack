@@ -82,12 +82,24 @@ span.pink {
   background-color: #f67280;
 }
 
+.section.client a {
+  color: #f67280;
+}
+
 .section.gateway {
   background-color: #c06c84;
 }
 
+.section.gateway a {
+  color: #c06c84;
+}
+
 .section.graphqlServer {
   background-color: #6c5b7b;
+}
+
+.section.graphqlServer a {
+  color: #6c5b7b;
 }
 
 .section.server {
@@ -96,6 +108,10 @@ span.pink {
 
 .section.dbProxy {
   background-color: #355c7d;
+}
+
+.section.dbProxy a {
+  color: #355c7d;
 }
 
 .section.data {
@@ -141,4 +157,13 @@ span.pink {
 .tool .info {
   padding: 0.5rem;
   background-color: #f3f4f5;
+}
+
+.tool .info .links {
+  display: flex;
+  justify-content: center;
+}
+
+.tool .info .links a {
+  margin: 0.5rem;
 }
