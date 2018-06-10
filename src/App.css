@@ -11,6 +11,10 @@
   margin: 0 auto;
 }
 
+header p {
+  padding: 1rem;
+}
+
 .explanation {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
