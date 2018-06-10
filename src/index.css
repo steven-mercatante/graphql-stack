@@ -15,3 +15,7 @@ ul {
 ul li {
   display: inline;
 }
+
+a {
+  color: #e10098;
+}

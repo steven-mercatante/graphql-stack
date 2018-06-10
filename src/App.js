@@ -37,6 +37,11 @@ class App extends Component {
             <Section type={type} data={data} key={i} />
           ))}
         </div>
+        <footer>
+          <p>
+            Made by <a href="https://twitter.com/mercatante">@mercatante</a>
+          </p>
+        </footer>
       </div>
     );
   }
