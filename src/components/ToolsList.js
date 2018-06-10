@@ -40,11 +40,14 @@ class ToolsList extends Component {
       const languages = sortLanguages(extractLanguages(tools));
       tools = tools.filter(({ language }) => language === this.state.language);
       languageSelector = (
-        <LanguageSelector
-          languages={languages}
-          selected={this.state.language}
-          onSelect={language => this.setState({ language })}
-        />
+        <div className="language">
+          Show servers for:&nbsp;
+          <LanguageSelector
+            languages={languages}
+            selected={this.state.language}
+            onSelect={language => this.setState({ language })}
+          />
+        </div>
       );
     }
 
