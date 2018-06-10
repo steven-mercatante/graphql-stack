@@ -13,29 +13,28 @@
 
 .section p {
   margin-top: 0;
+  color: #feffff;
 }
 
 .section.client {
-  background-color: #84cdca;
+  /* background-color: #84cdca; */
+  background-color: #f67280;
 }
 
 .section.gateway {
-  background-color: #40b3a3;
+  /* background-color: #40b3a3; */
+  background-color: #c06c84;
 }
 
 .section.graphqlServer {
-  background-color: #e8a87c;
-  color: #feffff;
-}
-
-.section.server {
-  background-color: #c38d9d;
-  color: #feffff;
+  /* background-color: #e8a87c; */
+  background-color: #6c5b7b;
 }
 
 .section.dbProxy {
-  background-color: #e27d5f;
-  color: #feffff;
+  /* background-color: #e27d5f; */
+  background-color: #355c7d;
+  /* color: #feffff; */
 }
 
 .tools {
@@ -57,9 +56,12 @@
   /* flex-direction: column; */
 }
 
+.tool p {
+  color: #333;
+}
+
 .tool .main {
   background-color: #feffff;
-  color: #333;
   /* height: 100%; */
   padding: 0.5rem;
 }
