@@ -36,27 +36,14 @@ class ToolsList extends Component {
     let { tools } = this.props;
     let languageSelector = null;
 
-    if (type === "client") {
+    if (type === "client" || type === "graphqlServer") {
       const languages = sortLanguages(extractLanguages(tools));
+      const typeLabel = type === "client" ? "clients" : "GraphQL servers";
       tools = tools.filter(({ language }) => language === this.state.language);
-      languageSelector = (
-        <div className="language">
-          <br />Show clients for:&nbsp;
-          <LanguageSelector
-            languages={languages}
-            selected={this.state.language}
-            onSelect={language => this.setState({ language })}
-          />
-        </div>
-      );
-    }
 
-    if (type === "graphqlServer") {
-      const languages = sortLanguages(extractLanguages(tools));
-      tools = tools.filter(({ language }) => language === this.state.language);
       languageSelector = (
         <div className="language">
-          <br />Show servers for:&nbsp;
+          <br />Show {typeLabel} for:&nbsp;
           <LanguageSelector
             languages={languages}
             selected={this.state.language}
