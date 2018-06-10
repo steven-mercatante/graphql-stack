@@ -6,7 +6,7 @@ export default {
   client: {
     name: "Clients",
     description:
-      "Client libraries construct queries and send them to the server. They're available for almost every popular frontend framework (React, Vue, Angular, Ember, etc.)",
+      "Client libraries construct queries and send them to the server. Some offer bindings for specific frontend libraries/frameworks (React, Vue, Angular, etc.), and others are able to be used with or without a framework.",
     tools: [
       {
         name: "Apollo Client",
@@ -115,9 +115,9 @@ export default {
   //   ]
   // },
   dbProxy: {
-    name: "Database Proxies",
+    name: "Database Helpers",
     description:
-      "A database proxy sits right above the database [TODO: need better description]",
+      "These tools sit above one or more databases in the data layer. They help by providing boilerplate functionality (such as CRUD operations). They might also act like an ORM for a database.",
     tools: [
       {
         name: "Prisma",
