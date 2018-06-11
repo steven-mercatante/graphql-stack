@@ -9,6 +9,8 @@ const PHP = "PHP";
 const Python = "Python";
 const Ruby = "Ruby";
 const Scala = "Scala";
+const iOS = "iOS";
+const Android = "Android";
 
 export default {
   client: {
@@ -100,8 +102,40 @@ export default {
         description:
           "This is a GraphQL client for Python. Plays nicely with graphene, graphql-core, graphql-js and any other GraphQL implementation compatible with the spec. GQL architecture is inspired by React-Relay and Apollo-Client.",
         url: null,
-        github: "https://github.com/graphql-python/gql",
+        github: "https://github.com/awslabs/aws-mobile-appsync-sdk-js",
         language: Python
+      },
+      {
+        name: "AWS AppSync Apollo Client",
+        description:
+          "JavaScript client for connecting to AWS AppSync GraphQL APIs. The client also includes support for offline operations.",
+        url: null,
+        github: "https://github.com/awslabs/aws-mobile-appsync-sdk-js",
+        language: JavaScript
+      },
+      {
+        name: "AWS Amplify",
+        description:
+          "JavaScript client for connecting GraphQL APIs. Supports queries, mutations, & subscriptions.",
+        url: "https://aws.github.io/aws-amplify/",
+        github: "https://github.com/aws/aws-amplify",
+        language: JavaScript
+      },
+      {
+        name: "AWS AppSync iOS Client",
+        description:
+          "The AWS AppSync SDK for iOS enables you to access your AWS AppSync backend and perform operations like Queries, Mutations, and Subscriptions. The SDK also includes support for offline operations.",
+        url: null,
+        github: "https://github.com/awslabs/aws-mobile-appsync-sdk-ios",
+        language: iOS
+      },
+      {
+        name: "AWS AppSync Android Client",
+        description:
+          "The AWS AppSync SDK for Android enables you to access your AWS AppSync backend and perform operations like Queries, Mutations, and Subscriptions. The SDK also includes support for offline operations.",
+        url: null,
+        github: "https://github.com/awslabs/aws-mobile-appsync-sdk-android",
+        language: Android
       }
     ]
   },
@@ -250,6 +284,13 @@ export default {
         url: null,
         github: "https://github.com/graphql-java/graphql-java",
         language: Java
+      },
+      {
+        name: "AWS AppSync",
+        description: "AWS AppSync is a managed & scalable GraphQL service. Features include out of the box offline functionality & access to multiple first-class data sources.",
+        url: "https://aws.amazon.com/appsync/",
+        github: "https://github.com/awslabs/aws-mobile-appsync-sdk-js",
+        language: JavaScript
       }
     ]
   },
