@@ -117,6 +117,13 @@ export default {
         url: "https://www.apollographql.com/engine",
         github: "https://github.com/apollographql/apollo-engine-js",
         language: JavaScript
+      },
+      {
+        name: "FastQL",
+        description:
+          "FastQL is a GraphQL CDN and API gateway. Improves performance by caching GraphQL API results at the edge and automatically invalidates stale caches.",
+        url: "https://fastql.io",
+        language: Go
       }
     ]
   },
