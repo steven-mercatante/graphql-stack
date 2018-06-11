@@ -102,7 +102,7 @@ export default {
         description:
           "This is a GraphQL client for Python. Plays nicely with graphene, graphql-core, graphql-js and any other GraphQL implementation compatible with the spec. GQL architecture is inspired by React-Relay and Apollo-Client.",
         url: null,
-        github: "https://github.com/awslabs/aws-mobile-appsync-sdk-js",
+        github: "https://github.com/graphql-python/gql",
         language: Python
       },
       {
