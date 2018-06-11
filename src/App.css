@@ -78,6 +78,10 @@ span.pink {
   font-size: 1.5rem;
 }
 
+.section .description {
+  text-align: left;
+}
+
 .section p {
   margin-top: 0;
 }
