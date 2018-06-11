@@ -14,7 +14,7 @@ export default {
   client: {
     name: "Clients",
     description:
-      "Client libraries construct queries and send them to the server. Some offer bindings for specific frontend libraries/frameworks (React, Vue, Angular, etc.), and others can be used independently a framework.",
+      "Client libraries construct queries and send them to the server. Some offer bindings for specific frontend libraries/frameworks (React, Vue, Angular, etc.), and others can be used independently of a framework.",
     tools: [
       {
         name: "Apollo Client",
