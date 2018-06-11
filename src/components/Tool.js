@@ -13,14 +13,14 @@ class Tool extends Component {
           <ul className="links">
             {url && (
               <li>
-                <a href={url}>
+                <a href={url} target="_blank">
                   <i className="fas fa-link" aria-hidden="true" />
                 </a>
               </li>
             )}
             {github && (
               <li>
-                <a href={github}>
+                <a href={github} target="_blank">
                   <i className="fab fa-github" aria-hidden="true" />
                 </a>
               </li>
