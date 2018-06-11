@@ -65,6 +65,12 @@ class App extends Component {
         </div>
         <footer>
           <p>
+            If you'd like to add a tool to this chart,{" "}
+            <a href="https://github.com/steven-mercatante/graphql-stack">
+              submit a PR
+            </a>.
+          </p>
+          <p>
             Made by <a href="https://twitter.com/mercatante">@mercatante</a>
           </p>
         </footer>
