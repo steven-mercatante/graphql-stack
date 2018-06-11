@@ -1,7 +1,7 @@
 # GraphQL Stack Explanation
 
-An explaination of how the various tools in the GraphQL ecosystem fit together.
+A visual explanation of how the various tools in the GraphQL ecosystem fit together.
 
 ### Contributions
 
-Am I missing a library? Is there incorrect information? Please submit a PR! Most of the content is fed by `toolsData.js`.
+Is a library missing? Is there incorrect information? Please submit a PR! Most of the content is fed by `src/toolsData.js`.
