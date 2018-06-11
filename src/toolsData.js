@@ -1,7 +1,14 @@
+const Clojure = "Clojure";
 const Elixir = "Elixir";
 const Elm = "Elm";
+const Go = "Go";
+const Java = "Java";
 const JavaScript = "JavaScript";
+const ObjectiveC = "Objective-C";
+const PHP = "PHP";
 const Python = "Python";
+const Ruby = "Ruby";
+const Scala = "Scala";
 
 export default {
   client: {
@@ -20,7 +27,7 @@ export default {
       {
         name: "urql",
         description:
-          "urql is a GraphQL client, exposed as a set of ReactJS components.",
+          "Universal React Query Library. urql is a GraphQL client, exposed as a set of ReactJS components. urql is specifically for React.",
         url: "",
         github: "https://github.com/FormidableLabs/urql",
         language: JavaScript
@@ -42,12 +49,59 @@ export default {
         language: JavaScript
       },
       {
+        name: "Relay",
+        description:
+          "Relay is a JavaScript framework for building data-driven React applications.",
+        url: "https://facebook.github.io/relay/",
+        github: "https://github.com/facebook/relay",
+        language: JavaScript
+      },
+      {
+        name: "GraphQL - Request",
+        description:
+          "Minimal GraphQL client supporting Node and browsers for scripts or simple apps.",
+        url: "",
+        github: "https://github.com/prismagraphql/graphql-request",
+        language: JavaScript
+      },
+      {
+        name: "Lokka",
+        description:
+          "Simple GraphQL client for JavaScript. Works on all the JavaScript environments including Browser, NodeJS and React Native.",
+        url: "",
+        github: "https://github.com/kadirahq/lokka",
+        language: JavaScript
+      },
+      {
+        name: "Nano GraphQL",
+        description:
+          "Tiny graphQL client library. Does everything you need with GraphQL 15 lines of code.",
+        url: "",
+        github: "https://github.com/yoshuawuyts/nanogql",
+        language: JavaScript
+      },
+      {
         name: "Elm - GraphQL",
         description: "A GraphQL library for Elm, written entirely in Elm.",
         url:
           "http://package.elm-lang.org/packages/jamesmacaulay/elm-graphql/latest",
         github: "https://github.com/jamesmacaulay/elm-graphql",
         language: Elm
+      },
+      {
+        name: "GraphQL iOS",
+        description: "An Objective-C GraphQL client for iOS.",
+        url: "",
+        github: "https://github.com/funcompany/graphql-ios",
+        language: ObjectiveC
+      },
+      {
+        name: "gql",
+        description:
+          "This is a GraphQL client for Python. Plays nicely with graphene, graphql-core, graphql-js and any other GraphQL implementation compatible with the spec. GQL architecture is inspired by React-Relay and Apollo-Client.",
+        url: "",
+        github: "https://github.com/graphql-python/gql",
+        language: Python
       }
     ]
   },
@@ -94,6 +148,28 @@ export default {
         language: JavaScript
       },
       {
+        name: "GraphQL - JS",
+        description: "A reference implementation of GraphQL for JavaScript.",
+        url: "https://graphql.org/graphql-js/",
+        github: "https://github.com/graphql/graphql-js/",
+        language: JavaScript
+      },
+      {
+        name: "Express - GraphQL",
+        description: " reference implementation of GraphQL for JavaScript.",
+        url: "Create a GraphQL HTTP server with Express.",
+        github: "https://github.com/graphql/express-graphql",
+        language: JavaScript
+      },
+      {
+        name: "Graphene - JS",
+        description:
+          "Graphene-JS is a JS framework for building GraphQL schemas/types fast and easily.",
+        url: "http://graphene-js.org/",
+        github: "https://github.com/graphql-js/graphene",
+        language: JavaScript
+      },
+      {
         name: "Absinthe",
         description: "The GraphQL toolkit for Elixir.",
         url: "http://absinthe-graphql.org/",
@@ -102,10 +178,76 @@ export default {
       },
       {
         name: "Graphene - Python",
-        description: "GraphQL framework for Python.",
+        description:
+          "Graphene is a Python library for building GraphQL schemas/types fast and easily.",
         url: "http://graphene-python.org/",
         github: "https://github.com/graphql-python/graphene",
         language: Python
+      },
+      {
+        name: "GraphQL - PHP",
+        description: "A PHP port of the GraphQL reference implementation.",
+        url: "http://webonyx.github.io/graphql-php/",
+        github: "https://github.com/webonyx/graphql-php",
+        language: PHP
+      },
+      {
+        name: "GraphQL Relay - PHP",
+        description:
+          "A library to help construct a graphql-php server supporting react-relay.",
+        url: "",
+        github: "https://github.com/ivome/graphql-relay-php",
+        language: PHP
+      },
+      {
+        name: "GraphQL - Ruby",
+        description: "Ruby implementation of GraphQL.",
+        url: "http://graphql-ruby.org/",
+        github: "https://github.com/rmosolgo/graphql-ruby",
+        language: Ruby
+      },
+      {
+        name: "Sangria",
+        description: "Scala GraphQL implementation.",
+        url: "https://sangria-graphql.org/",
+        github: "https://github.com/sangria-graphql/sangria",
+        language: Scala
+      },
+      {
+        name: "GraphQL - CLJ",
+        description: "A Clojure library that provides GraphQL implementation.",
+        url: "",
+        github: "https://github.com/tendant/graphql-clj",
+        language: Clojure
+      },
+      {
+        name: "GraphQL - CLJ",
+        description: "A Clojure library that provides GraphQL implementation.",
+        url: "",
+        github: "https://github.com/tendant/graphql-clj",
+        language: Clojure
+      },
+      {
+        name: "GraphQL - Go",
+        description: "An implementation of GraphQL for Go / Golang.",
+        url: "",
+        github: "https://github.com/graphql-go/graphql",
+        language: Go
+      },
+      {
+        name: "Relay",
+        description:
+          "A Go/Golang library to help construct a graphql-go server supporting react-relay.",
+        url: "",
+        github: "https://github.com/graphql-go/relay",
+        language: Go
+      },
+      {
+        name: "GraphQL - Java",
+        description: "GraphQL Java implementation.",
+        url: "",
+        github: "https://github.com/graphql-java/graphql-java",
+        language: Java
       }
     ]
   },

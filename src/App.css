@@ -158,6 +158,10 @@ span.pink {
   font-size: 1.1rem;
 }
 
+.tool .description {
+  text-align: left;
+}
+
 .tool .info {
   padding: 0.5rem;
   background-color: #f3f4f5;
