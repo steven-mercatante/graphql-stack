@@ -28,7 +28,7 @@ export default {
         name: "urql",
         description:
           "Universal React Query Library. urql is a GraphQL client, exposed as a set of ReactJS components. urql is specifically for React.",
-        url: "",
+        url: null,
         github: "https://github.com/FormidableLabs/urql",
         language: JavaScript
       },
@@ -36,7 +36,7 @@ export default {
         name: "Micro GraphQL React",
         description:
           "Light and simple utility for adding GraphQL to React components. Executes queries via HTTP GET, allowing you to cache results via Service Worker, rather than potentially large client-side solutions.",
-        url: "",
+        url: null,
         github: "https://github.com/arackaf/micro-graphql-react",
         language: JavaScript
       },
@@ -44,7 +44,7 @@ export default {
         name: "Grafoo",
         description:
           "Grafoo is a GraphQL client that tries to be different by adopting a simpler API, without giving up of a good caching strategy.",
-        url: "",
+        url: null,
         github: "https://github.com/grafoojs/grafoo",
         language: JavaScript
       },
@@ -60,7 +60,7 @@ export default {
         name: "GraphQL - Request",
         description:
           "Minimal GraphQL client supporting Node and browsers for scripts or simple apps.",
-        url: "",
+        url: null,
         github: "https://github.com/prismagraphql/graphql-request",
         language: JavaScript
       },
@@ -68,7 +68,7 @@ export default {
         name: "Lokka",
         description:
           "Simple GraphQL client for JavaScript. Works on all the JavaScript environments including Browser, NodeJS and React Native.",
-        url: "",
+        url: null,
         github: "https://github.com/kadirahq/lokka",
         language: JavaScript
       },
@@ -76,7 +76,7 @@ export default {
         name: "Nano GraphQL",
         description:
           "Tiny graphQL client library. Does everything you need with GraphQL 15 lines of code.",
-        url: "",
+        url: null,
         github: "https://github.com/yoshuawuyts/nanogql",
         language: JavaScript
       },
@@ -91,7 +91,7 @@ export default {
       {
         name: "GraphQL iOS",
         description: "An Objective-C GraphQL client for iOS.",
-        url: "",
+        url: null,
         github: "https://github.com/funcompany/graphql-ios",
         language: ObjectiveC
       },
@@ -99,7 +99,7 @@ export default {
         name: "gql",
         description:
           "This is a GraphQL client for Python. Plays nicely with graphene, graphql-core, graphql-js and any other GraphQL implementation compatible with the spec. GQL architecture is inspired by React-Relay and Apollo-Client.",
-        url: "",
+        url: null,
         github: "https://github.com/graphql-python/gql",
         language: Python
       }
@@ -112,7 +112,8 @@ export default {
     tools: [
       {
         name: "Apollo Engine",
-        description: "Apollo Engine middleware for Node.",
+        description:
+          "Apollo Engine is a GraphQL gateway that helps you implement and run GraphQL over REST or any other backend with confidence.",
         url: "https://www.apollographql.com/engine",
         github: "https://github.com/apollographql/apollo-engine-js",
         language: JavaScript
@@ -122,12 +123,12 @@ export default {
   graphqlServer: {
     name: "GraphQL Servers",
     description:
-      "These tools usually sit above a lower-level language specific framework (Express, Django, Laravel, etc.). They're responsible for receiving the query from the client, processing it, and sending back a response. They often times fetch the data from a database, but are not limited to one. In fact, they can query multiple databases, files and other webservices/APIs.",
+      "These tools usually sit above a lower-level language specific framework (Express, Django, Laravel, etc.). They're responsible for receiving the query from the client, processing it, and sending back a response. They often times fetch the data from a database, but are not limited to one. In fact, they can query multiple databases or other web services/APIs.",
     tools: [
       {
         name: "Apollo Server",
         description: "GraphQL server for Express, Connect, Hapi, Koa and more.",
-        url: "https://www.apollographql.com/engine",
+        url: "https://www.apollographql.com/server",
         github: "https://github.com/apollographql/apollo-server",
         language: JavaScript
       },
@@ -135,7 +136,7 @@ export default {
         name: "Yoga",
         description:
           "Fully-featured GraphQL Server with focus on easy setup, performance & great developer experience.",
-        url: "",
+        url: null,
         github: "https://github.com/prismagraphql/graphql-yoga",
         language: JavaScript
       },
@@ -156,8 +157,9 @@ export default {
       },
       {
         name: "Express - GraphQL",
-        description: " reference implementation of GraphQL for JavaScript.",
-        url: "Create a GraphQL HTTP server with Express.",
+        description:
+          "Create a GraphQL HTTP server with any HTTP web framework that supports connect styled middleware, including Connect itself, Express and Restify.",
+        url: null,
         github: "https://github.com/graphql/express-graphql",
         language: JavaScript
       },
@@ -195,7 +197,7 @@ export default {
         name: "GraphQL Relay - PHP",
         description:
           "A library to help construct a graphql-php server supporting react-relay.",
-        url: "",
+        url: null,
         github: "https://github.com/ivome/graphql-relay-php",
         language: PHP
       },
@@ -214,38 +216,38 @@ export default {
         language: Scala
       },
       {
-        name: "GraphQL - CLJ",
-        description: "A Clojure library that provides GraphQL implementation.",
-        url: "",
-        github: "https://github.com/tendant/graphql-clj",
+        name: "Alumbra",
+        description: "Simple & Elegant GraphQL for Clojure.",
+        url: "https://alumbra.github.io/alumbra/",
+        github: "https://github.com/alumbra/alumbra",
         language: Clojure
       },
       {
         name: "GraphQL - CLJ",
         description: "A Clojure library that provides GraphQL implementation.",
-        url: "",
+        url: null,
         github: "https://github.com/tendant/graphql-clj",
         language: Clojure
       },
       {
         name: "GraphQL - Go",
         description: "An implementation of GraphQL for Go / Golang.",
-        url: "",
+        url: null,
         github: "https://github.com/graphql-go/graphql",
         language: Go
       },
       {
         name: "Relay",
         description:
-          "A Go/Golang library to help construct a graphql-go server supporting react-relay.",
-        url: "",
+          "A Go / Golang library to help construct a graphql-go server supporting react-relay.",
+        url: null,
         github: "https://github.com/graphql-go/relay",
         language: Go
       },
       {
         name: "GraphQL - Java",
         description: "GraphQL Java implementation.",
-        url: "",
+        url: null,
         github: "https://github.com/graphql-java/graphql-java",
         language: Java
       }
