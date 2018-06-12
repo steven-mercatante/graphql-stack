@@ -39,28 +39,20 @@ class App extends Component {
           <Section type="gateway" data={toolsData["gateway"]} />
           <Section type="graphqlServer" data={toolsData["graphqlServer"]} />
           <StaticSection type="server" name="Servers">
-            {() => (
-              <div>
-                <p>
-                  This is where the business logic (e.g. user authentication,
-                  data processing) for your app traditionally lives. Common
-                  examples are Express apps, Django apps, Laravel apps, etc.
-                  They may also provide RESTful API endpoints (there's nothing
-                  saying you can't use GraphQL and REST in the same system.)
-                </p>
-              </div>
-            )}
+            <p>
+              This is where the business logic (e.g. user authentication, data
+              processing) for your app traditionally lives. Common examples are
+              Express apps, Django apps, Laravel apps, etc. They may also
+              provide RESTful API endpoints (there's nothing saying you can't
+              use GraphQL and REST in the same system.)
+            </p>
           </StaticSection>
           <Section type="dbProxy" data={toolsData["dbProxy"]} />
           <StaticSection type="data" name="Data">
-            {() => (
-              <div>
-                <p>
-                  The data layer may contain any of: one or more databases, flat
-                  files and even other APIs.
-                </p>
-              </div>
-            )}
+            <p>
+              The data layer may contain any of: one or more databases, flat
+              files and even other APIs.
+            </p>
           </StaticSection>
         </div>
         <footer>
