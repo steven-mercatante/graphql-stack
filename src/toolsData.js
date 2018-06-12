@@ -294,7 +294,8 @@ export default {
       },
       {
         name: "AWS AppSync",
-        description: "AWS AppSync is a managed & scalable GraphQL service. Features include out of the box offline functionality & access to multiple first-class data sources.",
+        description:
+          "AWS AppSync is a managed & scalable GraphQL service. Features include out of the box offline functionality & access to multiple first-class data sources.",
         url: "https://aws.amazon.com/appsync/",
         github: "https://github.com/awslabs/aws-mobile-appsync-sdk-js",
         language: JavaScript
@@ -311,8 +312,14 @@ export default {
         description:
           "Prisma is a performant open-source GraphQL ORM-like layer doing the heavy lifting in your GraphQL server. It turns your database into a GraphQL API which can be consumed by your resolvers via GraphQL bindings.",
         url: "https://www.prisma.io/",
-        github: "https://github.com/prismagraphql/prisma",
-        language: JavaScript
+        github: "https://github.com/prismagraphql/prisma"
+      },
+      {
+        name: "PostGraphile",
+        description:
+          "Instant, secure and fast GraphQL API for your Postgres database.",
+        url: "https://www.graphile.org/postgraphile/",
+        github: "https://github.com/graphile/postgraphile"
       }
     ]
   }
