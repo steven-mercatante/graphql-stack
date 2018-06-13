@@ -326,7 +326,7 @@ export default {
         description:
           "Neo4j-GraphQL is an integration for building GraphQL APIs using Neo4j Database. It translates GraphQL to Cypher for resolving data from Neo4j and enables the use of Cypher in the GraphQL schema definition.",
         url: "http://grandstack.io/docs/neo4j-graphql.html",
-        github: "https://github.com/neo4j-graphql"
+        github: "https://github.com/neo4j-graphql/neo4j-graphql"
       }
     ]
   }
