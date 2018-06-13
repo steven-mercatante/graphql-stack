@@ -331,7 +331,7 @@ export default {
       {
         name: "graphql-compose",
         description:
-        "graphql-compose is a toolkit for generating complex GraphQL schemas in Node.js.  It provides some methods for creating types and GraphQL Models for further building of complex relations in your schema.",
+        "Toolkit for generating complex GraphQL schemas in Node.js Has bunch of useful plugins (mongoose, elasticsearch, aws-sdk).",
         url: "https://graphql-compose.github.io",
         github: "https://github.com/graphql-compose/graphql-compose",
         language: JavaScript
