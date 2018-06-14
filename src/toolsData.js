@@ -9,6 +9,7 @@ const PHP = "PHP";
 const Python = "Python";
 const Ruby = "Ruby";
 const Scala = "Scala";
+const TypeScript = "TypeScript";
 const iOS = "iOS";
 const Android = "Android";
 
@@ -299,6 +300,14 @@ export default {
         url: "https://aws.amazon.com/appsync/",
         github: "https://github.com/awslabs/aws-mobile-appsync-sdk-js",
         language: JavaScript
+      },
+      {
+        name: "TypeGraphQL",
+        description:
+          "TypeGraphQL is a modern framework for building GraphQL APIs in Node.js. It allows creating the GraphQL schema and resolvers using only classes and decorators.",
+        url: "https://19majkel94.github.io/type-graphql/",
+        github: "https://github.com/19majkel94/type-graphql",
+        language: TypeScript
       }
     ]
   },
