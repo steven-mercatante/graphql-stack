@@ -312,9 +312,9 @@ export default {
     ]
   },
   dbProxy: {
-    name: "Database Helpers",
+    name: "Database-to-GraphQL Servers",
     description:
-      "These tools sit above one or more databases in the data layer. They help by providing boilerplate functionality (such as CRUD operations). They might also act like an ORM for a database.",
+      "These tools sit above one or more databases and translate between the database and GraphQL. Some can serve GraphQL clients directly, some might act like an ORM for a database. They typically offer boilerplate functionality (such as CRUD operations), and some expose more powerful database features.",
     tools: [
       {
         name: "Prisma",
@@ -326,7 +326,7 @@ export default {
       {
         name: "PostGraphile",
         description:
-          "Instant, secure and fast GraphQL API for your Postgres database.",
+          "Instant client-facing GraphQL server for your existing Postgres database, secured through Postgres' advanced access-control features. Highly customizable and extensible via SQL, Foreign Data Wrappers, and JS plugins.",
         url: "https://www.graphile.org/postgraphile/",
         github: "https://github.com/graphile/postgraphile"
       },
