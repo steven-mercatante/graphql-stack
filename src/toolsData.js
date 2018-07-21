@@ -336,6 +336,13 @@ export default {
           "Neo4j-GraphQL is an integration for building GraphQL APIs using Neo4j Database. It translates GraphQL to Cypher for resolving data from Neo4j and enables the use of Cypher in the GraphQL schema definition.",
         url: "http://grandstack.io/docs/neo4j-graphql.html",
         github: "https://github.com/neo4j-graphql/neo4j-graphql"
+      },
+      {
+        name: "Hasura",
+        description:
+          "Instant GraphQL APIs for existing or new Postgres databases, with dynamic row and column level access contols that can integrate with existing auth systems. Packs an admin UI and rails-like schema migrations.",
+        url: "https://hasura.io",
+        github: "https://github.com/hasura/graphql-engine"
       }
     ]
   }
