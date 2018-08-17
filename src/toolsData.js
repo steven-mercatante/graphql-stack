@@ -239,6 +239,14 @@ export default {
         name: "GraphQL Relay - PHP",
         description:
           "A library to help construct a graphql-php server supporting react-relay.",
+        url: "https://lighthouse-php.netlify.com/",
+        github: "https://github.com/nuwave/lighthouse",
+        language: PHP
+      },
+      {
+        name: "Lighthouse - PHP",
+        description:
+          "GraphQL Server for Laravel",
         url: null,
         github: "https://github.com/ivome/graphql-relay-php",
         language: PHP
