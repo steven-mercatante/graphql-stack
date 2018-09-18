@@ -66,6 +66,7 @@ span.pink {
 
 .cta {
   display: flex;
+  align-items: center;
   border-radius: 4px;
   background-color: #feffff;
   margin: 0 auto;
@@ -90,11 +91,16 @@ span.pink {
 #mc-embedded-subscribe:hover {
   background-color: #f6727f !important;
 }
+
+.mc-field-group {
+  display: inline-block;
+} /* positions input field horizontally */
+
 .avatar {
   display: block;
-  height: 100px;
-  width: 100px;
-  line-height: 100px;
+  height: 120px;
+  width: 120px;
+  line-height: 120px;
 
   -moz-border-radius: 50%;
   border-radius: 50%;

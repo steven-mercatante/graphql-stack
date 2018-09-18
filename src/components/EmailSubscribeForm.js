@@ -34,11 +34,13 @@ class EmailSubscribeForm extends React.Component {
           >
             <div id="mc_embed_signup_scroll">
               <label htmlFor="mce-EMAIL">
+                👋 I'm{" "}
+                <a href="https://twitter.com/mercatante">Steven Mercatante</a>.
                 Learn more about modern web development on my&nbsp;
                 <a href="https://stevenmercatante.com" target="_blank">
                   site
                 </a>{" "}
-                or sign up for my newsletter.
+                and sign up for my newsletter.
               </label>
               <input
                 type="email"

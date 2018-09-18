@@ -74,9 +74,6 @@ class App extends Component {
             </a>
             .
           </p>
-          <p>
-            Made by <a href="https://twitter.com/mercatante">@mercatante</a>
-          </p>
         </footer>
       </div>
     );
