@@ -77,11 +77,24 @@ span.pink {
   box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
 }
 
+.cta .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#mc-embedded-subscribe {
+  background-color: #c06c84 !important;
+}
+
+#mc-embedded-subscribe:hover {
+  background-color: #f6727f !important;
+}
 .avatar {
   display: block;
-  height: 80px;
-  width: 80px;
-  line-height: 80px;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
 
   -moz-border-radius: 50%;
   border-radius: 50%;

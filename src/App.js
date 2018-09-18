@@ -8,6 +8,8 @@ import toolsData from "./toolsData";
 import graphqlLogo from "./graphql-logo.svg";
 import headshot from "./headshot.jpg";
 
+import EmailSubscribeForm from "./components/EmailSubscribeForm";
+
 class App extends Component {
   render() {
     return (
@@ -37,11 +39,9 @@ class App extends Component {
 
         <div className="cta">
           <img src={headshot} className="avatar" />
-          Read more about modern web development on my&nbsp;
-          <a href="https://stevenmercatante.com" target="_blank">
-            site
-          </a>
-          .
+          <div className="content">
+            <EmailSubscribeForm />
+          </div>
         </div>
 
         <div className="sectionsList">
