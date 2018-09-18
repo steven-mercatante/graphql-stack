@@ -64,6 +64,47 @@ span.pink {
   border-left: 2px dotted #888;
 }
 
+.cta {
+  display: flex;
+  border-radius: 4px;
+  background-color: #feffff;
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 50%;
+  height: 100%;
+  padding: 1rem;
+  padding-bottom: 1rem;
+  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+.cta .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#mc-embedded-subscribe {
+  background-color: #c06c84 !important;
+}
+
+#mc-embedded-subscribe:hover {
+  background-color: #f6727f !important;
+}
+.avatar {
+  display: block;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+}
+
 .section {
   color: #feffff;
   padding: 1rem;
