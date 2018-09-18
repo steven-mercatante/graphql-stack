@@ -6,6 +6,7 @@ import StaticSection from "./components/StaticSection";
 import toolsData from "./toolsData";
 
 import graphqlLogo from "./graphql-logo.svg";
+import headshot from "./headshot.jpg";
 
 class App extends Component {
   render() {
@@ -33,6 +34,16 @@ class App extends Component {
           </p>
           - <a href="https://graphql.org/">Official GraphQL site</a>
         </header>
+
+        <div className="cta">
+          <img src={headshot} className="avatar" />
+          Read more about modern web development on my&nbsp;
+          <a href="https://stevenmercatante.com" target="_blank">
+            site
+          </a>
+          .
+        </div>
+
         <div className="sectionsList">
           <div className="line" />
           <Section type="client" data={toolsData["client"]} />
@@ -60,7 +71,8 @@ class App extends Component {
             If you'd like to add a tool to this chart,{" "}
             <a href="https://github.com/steven-mercatante/graphql-stack">
               submit a PR
-            </a>.
+            </a>
+            .
           </p>
           <p>
             Made by <a href="https://twitter.com/mercatante">@mercatante</a>

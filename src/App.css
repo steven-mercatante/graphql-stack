@@ -64,6 +64,34 @@ span.pink {
   border-left: 2px dotted #888;
 }
 
+.cta {
+  display: flex;
+  border-radius: 4px;
+  background-color: #feffff;
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 50%;
+  height: 100%;
+  padding: 1rem;
+  padding-bottom: 1rem;
+  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+.avatar {
+  display: block;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+}
+
 .section {
   color: #feffff;
   padding: 1rem;
