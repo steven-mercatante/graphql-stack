@@ -84,18 +84,6 @@ span.pink {
   align-items: flex-start;
 }
 
-#mc-embedded-subscribe {
-  background-color: #e10098 !important;
-}
-
-#mc-embedded-subscribe:hover {
-  background-color: #f6727f !important;
-}
-
-.mc-field-group {
-  display: inline-block;
-} /* positions input field horizontally */
-
 .avatar {
   display: block;
   height: 120px;
@@ -109,6 +97,26 @@ span.pink {
   color: white;
   text-align: center;
   font-size: 2em;
+}
+
+@media (max-width: 610px) {
+  .cta {
+    width: 90%;
+  }
+
+  .avatar {
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+  }
+}
+
+#mc-embedded-subscribe {
+  background-color: #e10098 !important;
+}
+
+#mc-embedded-subscribe:hover {
+  background-color: #f6727f !important;
 }
 
 .section {
