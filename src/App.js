@@ -38,7 +38,9 @@ class App extends Component {
         </header>
 
         <div className="cta">
-          <img src={headshot} className="avatar" />
+          <a href="https://stevenmercatante.com">
+            <img src={headshot} className="avatar" />
+          </a>
           <div className="content">
             <EmailSubscribeForm />
           </div>
