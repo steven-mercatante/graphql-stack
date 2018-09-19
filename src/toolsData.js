@@ -245,8 +245,7 @@ export default {
       },
       {
         name: "Lighthouse - PHP",
-        description:
-          "GraphQL Server for Laravel",
+        description: "GraphQL Server for Laravel.",
         url: "https://lighthouse-php.netlify.com/",
         github: "https://github.com/nuwave/lighthouse",
         language: PHP
