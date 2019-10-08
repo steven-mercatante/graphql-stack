@@ -52,6 +52,13 @@ class EmailSubscribeForm extends React.Component {
                 aria-hidden="true"
               >
                 <input
+                  type="hidden"
+                  value="graphqlstack.com"
+                  name="REF"
+                  id="mce-REF"
+                  tabIndex="-2"
+                />
+                <input
                   type="text"
                   name="b_40787a75fabc75abcb181492f_3119bb6a9d"
                   tabIndex="-1"
