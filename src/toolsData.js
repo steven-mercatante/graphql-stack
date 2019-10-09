@@ -318,6 +318,20 @@ export default {
       }
     ]
   },
+  servers: {
+    name: "Servers",
+    description:
+      "This is where the business logic (e.g. user authentication, data processing) for your app traditionally lives. Common examples are Express apps, Django apps, Laravel apps, etc. They may also provide RESTful API endpoints (there's nothing saying you can't use GraphQL and REST in the same system).",
+    tools: [
+      {
+        name: "AppSync Resolvers",
+        description:
+          "Package to write, configure, and manage serverless AWS Lambda functions in Golang as custom data resolvers for AWS AppSync queries and fields.",
+        github: "https://github.com/sbstjn/appsync-resolvers",
+        language: Go
+      }
+    ]
+  },
   dbProxy: {
     name: "Database-to-GraphQL Servers",
     description:
