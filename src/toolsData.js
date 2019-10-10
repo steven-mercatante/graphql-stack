@@ -206,6 +206,14 @@ export default {
         language: JavaScript
       },
       {
+        name: "graphql-api-koa",
+        description:
+          "A lightweight GraphQL.js implementation for Koa, with separate middleware for “onion” style error handling and execution. Supports native ESM.",
+        url: null,
+        github: "https://github.com/jaydenseric/graphql-api-koa",
+        language: JavaScript
+      },
+      {
         name: "Graphene - JS",
         description:
           "Graphene-JS is a JS framework for building GraphQL schemas/types fast and easily.",
