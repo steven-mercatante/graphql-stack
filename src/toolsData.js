@@ -137,6 +137,13 @@ export default {
         url: null,
         github: "https://github.com/awslabs/aws-mobile-appsync-sdk-android",
         language: Android
+      },
+      {
+        name: "Sailor",
+        description: "A typesafe GraphQL client for PHP",
+        url: null,
+        github: "https://github.com/spawnia/sailor",
+        language: PHP
       }
     ]
   },
