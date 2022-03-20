@@ -34,7 +34,7 @@ class EmailSubscribeForm extends React.Component {
           >
             <div id="mc_embed_signup_scroll">
               <label htmlFor="mce-EMAIL">
-                👋 I'm Steven Mercatante. Learn more about GraphQL and modern
+                <span role="img" aria-label="Waving">👋</span> I'm Steven Mercatante. Learn more about GraphQL and modern
                 web development by signing up for my newsletter.
               </label>
               <input

@@ -39,7 +39,7 @@ class App extends Component {
 
         <div className="cta">
           <a href="https://stevenmercatante.com">
-            <img src={headshot} className="avatar" />
+            <img src={headshot} alt="Steven Mercatante's photo" className="avatar" />
           </a>
           <div className="content">
             <EmailSubscribeForm />
